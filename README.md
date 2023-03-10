@@ -1,1 +1,2 @@
-css aldığım eğitimi yaparak yüklüyorum.
+CSS EĞİTİMİNDE ÖĞRENDİKLERİMİ YAPARAK YÜKLÜYORUM.
+
