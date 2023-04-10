@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS- Pseudo Element</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: .1.5em;
+        }
+        /* .para1::first-line
+        {
+            color: red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        } */
+        .para::after{
+            content: url(/images/logo-social.png);
+        }
+        .para1::after{
+            content: "Paragraf Sonrası";
+        }
+        
+    </style>
+</head>
+<body>
+    <p class="para1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dolorem quidem, dolore et optio necessitatibus ad quisquam cumque, a exercitationem porro placeat inventore consequuntur reprehenderit voluptas libero. Nobis cumque hic architecto fugiat repellat obcaecati velit, molestias consequatur excepturi beatae aspernatur minus at accusamus ipsa dolorum quos earum ad pariatur! Facilis molestiae tempore ducimus dolores consequatur ex animi cupiditate est perferendis vitae ipsam necessitatibus, quasi veniam molestias fugiat magnam magni reprehenderit, error, sint tempora officiis tenetur. Illum aliquam atque porro maxime corporis, quas nemo harum hic dignissimos, veniam est deserunt. Eos nemo harum consequatur. Minus, reiciendis. Quas mollitia praesentium eaque animi!
+    </p>
+</body>
+</html>
